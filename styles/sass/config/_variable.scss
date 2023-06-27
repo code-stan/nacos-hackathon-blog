@@ -1,0 +1,31 @@
+$Body-Bg: #fafafa;
+$Linear-Gradient: linear-gradient(-295deg, rgb(236, 215, 98) 30%, rgb(120, 49, 185));
+$Dark-Accent: rgb(17, 23, 36); // For Texts and Buttons
+$Desc-Color: rgb(107, 107, 107);
+$Dark-Desc-Color: rgb(96, 96, 96);
+$Ext-Color: #fefefe;
+
+// FONTS
+@font-face{
+    font-family: Instrument Sans;
+    src: url('/fonts/InstrumentSans-VariableFont_wdth\,wght.ttf');
+}
+@font-face{
+    font-family: Sequel Sans;
+    src: url('/fonts/Sequel\ Sans\ Medium\ Disp.otf');
+}
+@font-face{
+    font-family: Sequel Sans Med;
+    src: url('/fonts/Sequel\ Sans\ Book\ Disp.otf');
+}
+
+//MIXINS
+@mixin bgImg {
+    background-image: $Linear-Gradient;
+}
+
+@mixin flex($align, $justify){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}

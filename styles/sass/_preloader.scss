@@ -1,0 +1,8 @@
+.preloader{
+    font-size: 3rem;
+    font-weight: 600;
+    @include flex(center, center);
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: $Body-Bg;
+}
