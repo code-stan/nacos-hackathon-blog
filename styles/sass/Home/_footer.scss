@@ -10,7 +10,7 @@
 // NEWSLETTER-SECTION
 .newsletter-section{
     padding-top: 3rem;
-    padding-inline: clamp(2rem, 8vw, 5rem);
+    margin-inline: clamp(2rem, 8vw, 5rem);
 
     .newsletter__header{
         @extend .mod-ff;
@@ -23,7 +23,7 @@
 // FOOTER-ITEMS
 .footer-content{
     margin-top: 5rem;
-    padding-inline: clamp(2rem, 8vw, 5rem);
+    margin-inline: clamp(2rem, 8vw, 5rem);
 }
 .footer-site-about{
     margin-bottom: 5rem;
