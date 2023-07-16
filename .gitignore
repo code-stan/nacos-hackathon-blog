@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+desk-n-mobile.webp
+desk.webp
+footer.webp
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

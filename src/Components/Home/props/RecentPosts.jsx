@@ -23,9 +23,9 @@ export default function RecentPosts(props) {
                 {description}
             </p>
             <div className="post-tags">
-            <p>{tag1}</p>
-            <p>{tag2}</p>
-            {tag3 && <p>{tag3}</p>}
+                <p>{tag1}</p>
+                <p>{tag2}</p>
+                {tag3 && <p>{tag3}</p>}
             </div>
         </div>
     </section>
